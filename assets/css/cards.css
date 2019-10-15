@@ -1,0 +1,30 @@
+.sectionCards{
+    padding: 4rem;
+}
+.card_imageContainer{
+    min-height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+.card_imageContainer img {
+    max-height: 100%;
+    width: auto !important;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+.card{
+    width: 100%;
+    max-width: 18rem;
+    margin: 0 auto;
+}
+@media screen and (min-width: 768px){
+    .card{
+        width: 100%;
+        /* max-width: unset; */
+    } 
+}
+.btn-purple{
+    background-color: rebeccapurple;
+    color: white;
+}
