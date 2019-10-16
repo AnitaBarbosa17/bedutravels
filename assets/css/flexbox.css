@@ -1,14 +1,75 @@
 .transportes{
 display:flex;
 flex-wrap: wrap;
-
-
+justify-content: space-around;
+align-items: center;
 
 }
 .vehiculos{
     
-    margin-left: 250px;
+   
 flex-shrink: 0;
 width: 50px;
 height: 50px;
+}
+.Barrabeneficio{
+    background:black;
+    border-bottom: 50px solid darkgray;
+    justify-content: space-around;
+    display: flex;
+    
+
+}
+form{
+    margin-left:100px; 
+}
+label{
+    display: block;
+}
+input{
+    width: 1000px;
+    display: block;
+    
+}
+.boton{
+    display: flex;
+    
+    justify-content: center;
+    
+    margin-top: 50px;
+    
+    
+}
+.boton button{
+    background:forestgreen;
+    color: white;
+    border:none;
+    padding: 10px 300px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+}
+.boton button:hover{
+background:red;
+}
+
+
+.tituloB{justify-content: space-around;
+    display: flex;
+    padding-top: 50px;
+
+}
+.imgbeneficio{
+    align-items: center;
+}
+
+@media(max-width:500px){
+    .transportes{
+        flex-direction: column;
+align-content: center;
+
+    }
+
+
 }
