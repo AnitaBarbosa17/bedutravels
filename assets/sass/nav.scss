@@ -1,0 +1,30 @@
+$color1: #ff0000;
+$color2: white;
+$alto: 20px;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: $color1;
+    padding: 30px;
+    height: $alto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+     height: 20px;
+}
+
+ a{
+    text-decoration: none;
+    color: $color2;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+    font-size: 18px;
+} 
+
+
+
