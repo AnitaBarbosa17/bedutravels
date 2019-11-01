@@ -1,0 +1,23 @@
+body {
+  padding: 0;
+  margin: 0; }
+
+.Barra {
+  background-color: black;
+  height: 50px; }
+
+.Formulario {
+  width: 400px;
+  height: 300px;
+  border: #5c5858 2px solid;
+  border-radius: 15px; }
+
+form-group {
+  margin-left: 100px; }
+
+.Padre {
+  margin-left: 500px;
+  display: inline-block;
+  justify-content: center; }
+
+/*# sourceMappingURL=form.css.map */
