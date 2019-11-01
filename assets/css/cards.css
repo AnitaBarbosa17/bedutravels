@@ -1,6 +1,12 @@
-.sectionCards{
-    padding: 4rem;
+.sectionCards {
+    padding: 2rem;
 }
+@media screen and (min-width: 768px){
+    .sectionCards{
+        padding: 4rem;
+    }
+}
+
 .card_imageContainer{
     min-height: 200px;
     overflow: hidden;
