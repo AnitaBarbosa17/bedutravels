@@ -1,21 +1,14 @@
-body{
-    background: grey;
-}
-
-
 .transportes{
-display:flex;
-flex-wrap: wrap;
-justify-content: space-around;
-align-items: center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 
 }
 .vehiculos{
-    
-   
-flex-shrink: 0;
-width: 50px;
-height: 50px;
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
 }
 .Barrabeneficio{
     background:black;
